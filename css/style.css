@@ -148,14 +148,9 @@ h3{
   padding: 5px;
 }
 
-.gal-item {
-  height: 200px;
-  flex: 0 1 auto;
-}
-
 .gal-item img {
-  width: 100%;
-  height: 100%;
+  width: 47vw;
+  height: auto;
 }
 
 
