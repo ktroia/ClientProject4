@@ -74,8 +74,8 @@ header {
 
 .highlight1,
 .highlight2 {
+  grid-template-rows: 1fr, 1fr;
   background-color: #bdf09f;
-  text-align: center;
   padding: 5px;
 }
 .highlight2 {
@@ -84,6 +84,7 @@ header {
 
 .highlight1 ul,
 .highlight2 ul {
+  display: inline-block;
   text-align: left;
   margin-right: 4px;
   list-style-type:circle;
@@ -137,6 +138,7 @@ h3{
 /*gallery*/
 #gallery {
   display: flex;
+  overflow: hidden;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 5px;
