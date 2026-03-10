@@ -77,7 +77,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-around;
+  align-content: flex-start;
   background-color: #bdf09f;
   padding-left: 10px;
 }
