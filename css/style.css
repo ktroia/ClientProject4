@@ -69,7 +69,6 @@ header {
   border: solid black 4px;
   border-radius: 4px;
   font-size: 125%;
-  text-align: center;
 }
 
 .highlight1,
@@ -79,6 +78,7 @@ header {
   justify-content: space-between;
   background-color: #bdf09f;
   padding-left: 10px;
+  text-align: center;
 }
 .highlight2 {
   background-color: #77a95a;
@@ -144,12 +144,12 @@ h3{
   overflow: hidden;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 5px;
-  padding: 5px;
+  gap: 2px;
+  padding: 2px;
 }
 
 .gal-item img {
-  width: 47vw;
+  width: 45vw;
   height: auto;
 }
 
