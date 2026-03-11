@@ -189,6 +189,9 @@ a:hover {
   .highlight2{
     background: rgb(32, 81, 32);
   }
+  a{
+  color:#a4c3d7;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
