@@ -172,3 +172,33 @@ a:hover {
   font-weight: bold;
   font-size: 125%;
 }
+
+/*media queries */
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #010032;
+    color: #ddccbb;
+  }
+  #cards div{
+    background: black;
+    color: #ddccbb;
+  }
+  .highlight1{
+    background: rgb(0, 35, 0) ;
+  }
+  .highlight2{
+    background: rgb(32, 81, 32);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+#jump a:hover{
+  background-color: rgb(255, 204, 136);
+  box-shadow: 0px 0px 0px;
+}
+  a:hover {
+  color: rgb(165, 83, 7);
+  font-weight: normal;
+  font-size: 100%;
+}
+}
