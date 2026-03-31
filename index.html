@@ -15,13 +15,13 @@
         <header>
             <div class="name">
                 <h1>Garrett Comer </h1>
-                <p><i class="fa-solid fa-graduation-cap"></i> Class of 2027</p>
-                <p><i class="fa-solid fa-school"></i> Ann Arbor Skyline</p>
+                <h2><i class="fa-solid fa-graduation-cap"></i> Class of 2027</h2>
+                <h2><i class="fa-solid fa-school"></i> Ann Arbor Skyline</h2>
             </div>
             <img src="images/coverphoto.jpg" alt="Garrett Comer holding a trophy" id="pfp">
         </header>
         <nav id="jump">
-            <a href="#cards">All Races</a>
+            <a href="#sortby">All Races</a>
             <a href="#gallery-start">Gallery</a>
         </nav>
 
@@ -30,7 +30,7 @@
         <div id="highlights-grid">
             <div class="highlight1">
                 <h3>Personal Record</h3>
-                <p>16:43.8</p>
+                <h4>16:43.8</h4>
             </div>
             <div class="highlight2">
                 <h3>Season Bests</h3>
@@ -42,7 +42,7 @@
             </div>
             <div class="highlight2">
                 <h3>Total Races</h3>
-                <p>27</p>
+                <h4>27</h4>
             </div>
             <div class="highlight1">
                 <h3>Awards</h3>
@@ -55,12 +55,13 @@
         </div>
 
         <!--sort buttons-->
+        <div id = "sticky-top">
         <div id="sortby">
             <p>Sort By:</p>
-            <button type="button">Recent</button>
-            <button type="button">Place</button>
-            <button type="button">Time</button>
-            <button type="button">PRs</button>
+            <button type="button" onclick = "recent()" id = "recent">Recent</button>
+            <button type="button" onclick = "placement()" id = "place">Place</button>
+            <button type="button" onclick = "time()" id = "time">Time</button>
+            <button type="button" onclick = "pr_switch()"  id = "pr_but">PRs Only</button>
         </div>
 
         <!-- Race Cards-->
@@ -324,6 +325,7 @@
                 <p><a href="https://www.athletic.net/CrossCountry/meet/229906/results/916818">View on Athletic.net</a>
                 </p>
             </div>
+        </div>
         </div>
         <h2 id="gallery-start">2025 Season Gallery</h2>
         <div id="gallery">
